@@ -1,0 +1,23 @@
+# Streamlit for the web UI
+streamlit
+
+# PyMuPDF for PDF text extraction (installed as "PyMuPDF")
+PyMuPDF==1.22.0
+
+# LangChain for vector stores, embeddings, text splitters, etc.
+langchain>=0.0.200
+
+# LangChain Community Modules (needed for langchain_community.vectorstores)
+langchain-community
+
+# ChromaDB (required for the LangChain Chroma vector store)
+chromadb
+
+# Groq API client (ensure this is available via pip or your custom repository)
+groq
+
+# Sentence Transformers (used by HuggingFaceEmbeddings for the model "all-MiniLM-L6-v2")
+sentence-transformers
+
+# Transformers (commonly needed with Hugging Face models)
+transformers
