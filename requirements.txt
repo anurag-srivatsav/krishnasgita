@@ -22,4 +22,4 @@ sentence-transformers
 # Transformers (commonly needed with Hugging Face models)
 transformers
 
-sqlite3 
+sqlite3 >= 3.35.0
