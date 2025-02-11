@@ -21,3 +21,5 @@ sentence-transformers
 
 # Transformers (commonly needed with Hugging Face models)
 transformers
+
+sqlite3 
