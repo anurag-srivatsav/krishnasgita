@@ -15,7 +15,7 @@ import re
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 # ✅ Initialize ChromaDB
-vector_store = Chroma(persist_directory="./chroma_db", embedding_function=embedding_model)
+vector_store = Chroma(persist_directory="chroma_db", embedding_function=embedding_model)
 
 # ✅ Initialize Groq API client
 client = Groq(api_key="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")
