@@ -9,6 +9,10 @@ from groq import Groq
 import json
 import re
 
+
+import pysqlite3
+
+sys.modules["sqlite3"] = pysqlite3
 #this prompt is so perfect
 
 # ✅ Improved Embedding Model (More Accurate)
